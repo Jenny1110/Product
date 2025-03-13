@@ -590,7 +590,7 @@ section .btn4 {
   .big7 {
     display: flex;
     flex-direction: row;
-    width: 1200px;
+    width: 100%;
     gap: 10px;
     font-weight: 400;
     padding: 10px 60px;
@@ -767,5 +767,9 @@ section .btn4 {
       display: flex;
       flex-direction: column;
       gap: 70px;
+    }
+    .big7 {
+      display: flex;
+      flex-direction: column;
     }
   }
