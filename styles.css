@@ -762,14 +762,14 @@ section.one .btn3 {
     }
     .big2 .immg img {
       top: 17px;
-      margin-right: 60%;
+      left: 30%;
       width: 100%;
       height: 100%;
       
       
   }
     .big3 {
-      margin-top: 4900px;
+      margin-top: 4550px;
       width: 100%;
     
     }
@@ -797,7 +797,7 @@ section.one .btn3 {
       font-size: 1.2rem;
     }
     .big4 {
-      margin-top: 6250px;
+      margin-top: 6000px;
       width: 100%;
     }
     .big4 h1 {
@@ -812,7 +812,7 @@ section.one .btn3 {
       font-size: 1rem;
     }
     .big5 {
-      margin-top: 6600px;
+      margin-top: 6400px;
       display: flex;
       flex-direction: column;
     }
@@ -844,26 +844,37 @@ section.one .btn3 {
     font-size: 1.1rem;
 }
     .big6 {
-      margin-top: 7800px;
+      margin-top: 7600px;
       display: flex;
       flex-direction: column;
       gap: 50px;
     }
     .big7 {
-      margin-top: 8800px;
+      margin-top: 8600px;
       display: flex;
       flex-direction: column;
     }
     .hr1 {
       width: 90%;
-      margin-top: 7750px;
+      margin-top: 7550px;
       left: 10px;
     }
     .hr2 {
       width: 90%;
-      margin-top: 8750px;
+      margin-top: 8550px;
       left: 10px;
     }
+    .big7-link {
+      width: 100%;
+      font-size: 1.1rem;
+    }
+    .big7-link a {
+      font-size: 1.1rem;
+    }
+    .big7-text {
+      font-size: 1.1rem;
+    }
+    
   }
   @media (min-width: 481px) and (max-width: 767px) {
     body {
@@ -1095,4 +1106,5 @@ font-size: 1.2rem;
   left: 10px;
 }
   }
-  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  }
