@@ -450,10 +450,10 @@ section.one .btn3 {
 .big5 .mm {
     display: flex;
     flex-direction: row;
-    padding: 15px;
-    gap: 40px;
+    padding: 10px;
+    gap: 30px;
     justify-content: space-between;
-    width: 80%;
+    width: 100%;
 }
 .big5 h1 {
     align-items: flex-start;
@@ -466,7 +466,7 @@ section.one .btn3 {
     font-weight: 400;
 }
 .big5 .mm strong {
-    padding: 0px 3px;
+    padding: 0 3px;
 }
 .big6 { 
   padding: 10px 20px ;
@@ -923,7 +923,6 @@ section.one p {
   font-size: 1.2rem;
   text-align: center;
   padding: 20px;
-  
 }
 section.one .btn3 {
   width: 45%;
@@ -946,7 +945,6 @@ section.one .btn3 {
 .bigg .btn4 {
   width: 50%;
   right:25%;
-
 }
 .big1 {
   margin-top: 2000px;
@@ -959,7 +957,6 @@ section.one .btn3 {
   top: -15px;
   height: 90%;
   right: 20%;
- 
 }
 
 .big1 h1 {
@@ -999,26 +996,23 @@ section.one .btn3 {
 }
 .big2 .texts2 {
   width: 100%;
-  ;
+  
 }
 .big2 .immg img {
   top: -17px;
   margin-left:60%;
   width: 90%;
   height: 90%;
-  
 }
 .big3 {
   margin-top: 4150px;
   width: 100%;
-
 }
 .big3 img {
   margin-left: 15%;
   top: -18px;
   width: 90%;
   height: 90%;
-
 }
 .big3 .texts3 {
   width: 100%;
@@ -1107,4 +1101,223 @@ font-size: 1.2rem;
 }
   }
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    body {
+      color: #2f281e;
+      font-weight: 500;
+      display: flex;
+      flex-direction: column;
+    }
+    .navbar {
+      align-items: center;
+      display: flex;
+      width: 100%;
+      position: fixed;
+    }
+    .nav_links, .nav_btns {
+      display: none;
+    }
+    .hamburger {
+     display: block;
+    }
+    section.one {
+      width: 100%;
+      margin-top: 150px;
+      padding: 2rem;
+    
+    }
+    section.one img {
+      height: 50%;
+      width: 50%;
+      left: -1%;
+    }
+    section.one h1 {
+      width: 50%;
+      font-size: 3.2rem;
+      text-align: left;
+      padding: 10px;
+     }
+     section.one p {
+      width: 50%;
+      font-size: 1.7rem;
+      text-align: left;
+      padding: 30px;
+      
+    }
+    section.one .btn3 {
+      width: 45%;
+      padding: 10px 20px;
+    }
+    section.one .btn2 {
+      width: 45%;
+      padding: 10px 20px;
+    }
+    .bigg {
+      margin-top: 700px;
+      width: 100%;
+    }
+    .bigg .big {
+      display: grid;
+      width: 80%;
+     grid-template-columns: repeat(2, 1fr);
+    }
+    .bigg h1 {
+      text-align: center;
+      width: 100%;
+      font-size: 3.5rem;
+    }
+    .bigg .btn4 {
+      width: 50%;
+      right:25%;
+    }
+    .big1 {
+      margin-top: 1600px;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .big1 h1 {
+      text-align: left;
+      font-size: 3rem;
+      width: 100%;
+    }
+    .big1 img {
+      width: 70%;
+      top: -15px;
+      height: 70%;
+      right: 20%;
+    }
+    .big2 {
+      margin-top: 2800px;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      right: 40%;
+    }
+    .big2 h1 {
+      width: 100%;
+      font-size: 3rem;
+    }
+    .big2 h3 {
+      width: 80%;
+      font-size: 1.5rem;
+    }
+    .big2 p {
+      width: 100%;
+      font-size: 1.2rem;
+    }
+    .big2 .texts2 {
+      width: 100%;
+    }
+    .big2 .immg img {
+      top: -17px;
+      margin-left:60%;
+      width: 80%;
+      height: 80%;
+    }
+    .big3 {
+      margin-top: 3800px;
+      width: 90%;
+    }
+    .big3 img {
+      margin-left: 15%;
+      top: -15px;
+      width: 70%;
+      height: 60%;
+    }
+    .big4 {
+      margin-top: 5000px;
+      width: 100%;
+      
+    }
+    .big4 h1 {
+      width: 100%;
+      font-size: 3.5rem;
+      text-align: center;
+      gap: 20px;
+    }
+    .big4 .btn5 {
+    width: 60%;
+    }
+    .big4 p {
+      width: 100%;
+      font-size: 1.2rem;
+      text-align: center;
+      gap: 20px;
+    }
+    .big5 {
+      margin-top: 5000px;
+      display: flex;
+      flex-direction: column;
+    }
+    .big5 .mm {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100%;
+      font-size: 1rem;
+      padding: 20px;
+      
+    }
+    .big5 .mm h2 {
+      width: 100%;
+      font-size: 1.5rem;
+      text-align: left;
+    }
+    .big5 .mm p {
+      width: 100%;
+      font-size: 1.2rem;
+      text-align: left;
+    }
+    .big5 .mm .m1 img {
+      height: 40%;
+      width: 90%;
+      padding: 2px;
+    }
+    .big5 .mm .m2 img {
+      height: 40%;
+      width: 100%;
+      padding: 2px;
+    }
+    .big5 .mm .m3 img {
+      height: 40%;
+      width: 90%;
+      padding: 2px;
+    }
+    .big5 h1 {
+      width: 100%;
+      font-size: 3.1rem;
+      text-align: center;
+    }
+    .big5 p {
+    width: 80%;
+    font-size: 1.5rem;
+    text-align: center;
+    }
+    .big6 {
+      margin-top: 5700px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      padding:60px;
+      width: 100%;  
+    }  
+    .btn6 {
+      padding: 10px 25px;
+    }
+    .big7 {
+      margin-top: 6250px;
+      width: 90%;
+      display: flex;
+      flex-direction: row;
+    }
+    .hr1 {
+      width: 90%;
+      margin-top: 5600px;
+      left: 30px;
+    }
+    .hr2 {
+      width: 90%;
+      margin-top: 6200px;
+      left: 30px;
+    }
   }
